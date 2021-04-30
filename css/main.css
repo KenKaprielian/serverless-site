@@ -1940,7 +1940,53 @@ img{
 }
 @media screen and (min-width:40em){
 	.page-home .home-button{
-		bottom:22%
+		bottom:40%
+}
+}
+.page-home .signin-button{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	background:#fff;
+	border:1px solid transparent;
+	border-radius:1.25rem;
+	color:#f50856;
+	font-size:1.25rem;
+	text-transform:uppercase;
+	padding:.3125rem 1.5625rem;
+	position:absolute;
+	left:45%;
+	bottom:5%;
+	-webkit-transform:translateX(-50%);
+	transform:translateX(-50%);
+	font-weight:700
+}
+@media screen and (min-width:40em){
+	.page-home .signin-button{
+		bottom:45%
+}
+}
+.page-home .register-button{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	background:#fff;
+	border:1px solid transparent;
+	border-radius:1.25rem;
+	color:#f50856;
+	font-size:1.25rem;
+	text-transform:uppercase;
+	padding:.3125rem 1.5625rem;
+	position:absolute;
+	left:55%;
+	bottom:5%;
+	-webkit-transform:translateX(-50%);
+	transform:translateX(-50%);
+	font-weight:700
+}
+@media screen and (min-width:40em){
+	.page-home .register-button{
+		bottom:45%
 }
 }
 .home-about{
